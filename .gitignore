@@ -1,0 +1,11 @@
+*~
+*.a
+*.jar
+*.o
+*.obj
+*.out
+*.swp
+*.tmp
+Debug/
+Release/
+sfx/
