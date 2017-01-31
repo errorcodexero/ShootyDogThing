@@ -1,0 +1,75 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Shooter1 encVel" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="20" y="440"/>
+		<width>620</width>
+		<height>240</height>
+		<property name="Buffer Size (samples)" value="500"/>
+	</widget>
+	<widget field="Shooter1 iout" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="69" y="220"/>
+	</widget>
+	<widget field="Shooter1 vout" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="65" y="200"/>
+	</widget>
+	<widget field="Shooter1 vbus" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="64" y="180"/>
+	</widget>
+	<widget field="Shooter2 iout" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="329" y="220"/>
+	</widget>
+	<widget field="Shooter2 vout" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="325" y="200"/>
+	</widget>
+	<widget field="Shooter2 vbus" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="324" y="180"/>
+	</widget>
+	<widget field="Shooter2 err" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="333" y="300"/>
+	</widget>
+	<widget field="Shooter2 speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="318" y="280"/>
+	</widget>
+	<widget field="Shooter2 encVel" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="316" y="260"/>
+	</widget>
+	<widget field="Shooter2 tempFaultSticky" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="336" y="400"/>
+	</widget>
+	<widget field="Shooter2 tempFault" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="364" y="380"/>
+	</widget>
+	<widget field="Shooter2 vbusFaultSticky" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="337" y="360"/>
+	</widget>
+	<widget field="Shooter2 vbusFault" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="365" y="340"/>
+	</widget>
+	<widget field="Shooter1 tempFaultSticky" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="76" y="400"/>
+	</widget>
+	<widget field="Shooter1 tempFault" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="104" y="380"/>
+	</widget>
+	<widget field="Shooter1 vbusFault" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="105" y="340"/>
+	</widget>
+	<widget field="Shooter1 vbusFaultSticky" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.CheckBox">
+		<location x="77" y="360"/>
+	</widget>
+	<widget field="Shooter1 err" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="73" y="300"/>
+	</widget>
+	<widget field="Shooter1 speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="58" y="280"/>
+	</widget>
+	<widget field="Shooter1" type="PIDController" class="edu.wpi.first.smartdashboard.gui.elements.PIDEditor">
+		<location x="83" y="4"/>
+	</widget>
+	<widget field="Shooter2" type="PIDController" class="edu.wpi.first.smartdashboard.gui.elements.PIDEditor">
+		<location x="343" y="4"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
